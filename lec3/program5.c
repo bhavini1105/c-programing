@@ -1,10 +1,10 @@
 // #include<stdio.h>
 // void main(){
 //     float pie = 3.14 , area;
-//     int redius;
+//     float redius;
 
 //     printf("Enter Redius:");
-//     scanf("%d",&redius);
+//     scanf("%f",&redius);
 
 //     area = (pie*redius*redius);
 //     printf("Area of Circle is %.2f",area);
@@ -64,17 +64,17 @@
 //     printf("Simple Intrest is  %.2f:",sm);
 // }
 
-#include<stdio.h>
+// #include<stdio.h>
 
-void main(){
-    float pie = 3.14;
-    int r;
-    float perimeter;
+// void main(){
+//     float pie = 3.14;
+//     int r;
+//     float perimeter;
     
-    printf("Enter The Redius:");
-    scanf("%d",&r);
+//     printf("Enter The Redius:");
+//     scanf("%d",&r);
 
-    perimeter = 2 *pie * r;
+//     perimeter = 2 *pie * r;
 
-    printf("The Perimeter of circle is : %.2f",perimeter);
-}
+//     printf("The Perimeter of circle is : %.2f",perimeter);
+// }
