@@ -1,7 +1,14 @@
 #include<stdio.h>
 void main(){
-    int maths, english, gujarati;
+    int maths, english, gujarati,rollno;
     float total, avg;
+    char name[20];
+
+    printf("\nEnter Your Name:");
+    scanf("%s",&name);
+
+    printf("Enter Rollno:");
+    scanf("%d",&rollno);
 
     printf("\nEnter the marks of Maths:");
     scanf("%d",&maths);
@@ -17,11 +24,15 @@ void main(){
     avg = total / 3.0 ;
     
     printf("\nThe Avarage of Three subjects is: %.2f",avg);
-
-    // if(total < 300.0){
-
-    //     printf("The Avarage of Three subjects is: %.2f",avg);
-    // }else{
-    //     printf("Sorry, Wrong Marks are Entered");
-    // }
+    
+    if (avg > 90)
+    {
+        printf("\n Your Grade is A..");
+    }
+    else if (avg > 80)
+    {
+        /* code */
+    }
+    
+    
 }
