@@ -1,2 +1,2 @@
 Simple Grade Project
-![Uploading Screenshot (35).png…]()
+[Uploading Screenshot (35).png…]()
