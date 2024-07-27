@@ -25,13 +25,33 @@ void main(){
     
     printf("\nThe Avarage of Three subjects is: %.2f",avg);
     
-    if (avg > 90)
+    if (maths > 35 && english > 35 && gujarati >35)
     {
-        printf("\n Your Grade is A..");
+        printf("\n Pass class with");
+
+        if (avg > 90)
+    {
+        printf("\n  Grade  A....");
     }
     else if (avg > 80)
     {
-        /* code */
+       printf("\n Grade B....");
+    }
+    else if (avg > 70)
+    {
+        printf("\n Grade C....");
+    }
+    else if (avg > 60)
+    {
+        printf("\n Grade D....");
+    }else{
+        printf("\nFail");
+    }
+    
+    
+    }
+    else{
+        printf("\n Fial");
     }
     
     
