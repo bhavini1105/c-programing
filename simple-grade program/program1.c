@@ -20,7 +20,7 @@ void main(){
 
     printf("Total Marks of All Subject is %d.",total);
 
-    printf("\n Avarage of MArks is %.2f .", avg);
+    printf("\n Avarage of MArks is %.2f ..", avg);
 
     grade = avg >= 92 ? 'A' : avg >= 80 ? 'B' : avg >= 70 ? 'C' : avg >= 60 ? 'D' : 'F';
 

@@ -90,8 +90,6 @@ void main(){
                 printf("\n Khoto Number");
                 break;
             }
-    
-
     break;
         
     default:
