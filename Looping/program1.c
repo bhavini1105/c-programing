@@ -1,17 +1,18 @@
 #include<stdio.h>
 
 int main(){
-    int i , j , a;
+    int i , j , a , b , c = 0;
 
     for ( i = 1; i <= 5; i++)
     {
-        int  n = 1;
-        printf(" %d ",n);
-        for ( j = 1; j < i; j++)
+       a=1;
+        for ( j = 1; j <= i; j++)
         {
-            n += i - j ;
-            printf(" %d ",n);
+            printf(" %d ",a);
+            b = a;
+            a = c + a; 
         }
+        c = b;
         printf("\n");
     }
     return 0 ;
