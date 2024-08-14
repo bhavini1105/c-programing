@@ -17,12 +17,11 @@ v <=> 1
 int main(){
 
     char a[20] , c;
-    int n , ct , i;
+    int  ct , i;
 
     printf("Enter String :");
     gets(a);
 
-    n = strlen(a);
 
     for (c = 65; c <= 122; c++)
     {
