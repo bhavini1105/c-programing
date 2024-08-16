@@ -1,3 +1,8 @@
+/*
+Enter Number :10
+The given number is not divisible by both 3 & 5.
+*/
+
 #include<stdio.h>
 
 int main(){
@@ -11,6 +16,7 @@ int main(){
     {
         printf("The given number is divisible by both 3 & 5.");
     }
+
     else{
         printf("The given number is not divisible by both 3 & 5.");
     }
