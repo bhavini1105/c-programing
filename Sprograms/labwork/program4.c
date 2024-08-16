@@ -8,10 +8,12 @@ void main()
   printf("Create your password: ");
   gets(str);
 
-  len = strlen(str);
+  len = strlen(str) ;
 
   if (len >= 6)
+
   {
+    
     while (str[i] != '\0')
     {
 
