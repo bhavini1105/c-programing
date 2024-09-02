@@ -41,7 +41,9 @@ int main() {
     
    
     for (i = 0; i < n; i++) {
+        
         float total = students[i].chem_marks + students[i].maths_marks + students[i].phy_marks;
+        
         float percentage = total / 3;
         
         printf("%s (%d)\n", students[i].name, students[i].roll_no);

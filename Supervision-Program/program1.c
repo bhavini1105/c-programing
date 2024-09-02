@@ -13,21 +13,20 @@ int main() {
         return 1;
     }
 
-    for (i = 50; i <= 70; i += 2) {
+    for (i = 50; i <= 70; i =i + 2) {
         if (i > 50) {
             fprintf(ptr, ", ");
         }
         fprintf(ptr, "%d", i);
     }
 
-    for (i = 51; i < 70; i += 2) {
+    for (i = 51; i < 70; i = i + 2) {
         if (i > 51) {
             fprintf(ptr1, ", ");
         }
         fprintf(ptr1, "%d", i);
     }
 
-    // Close files
     fclose(ptr);
     fclose(ptr1);
 

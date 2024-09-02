@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main()
 {
-    char str[20], *ptr;
+    char str[50], *ptr;
     int ct = 0;
 
     printf("Enter any string : ");
